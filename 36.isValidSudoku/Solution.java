@@ -1,6 +1,7 @@
-class Solution {
+public class Solution {
     public static boolean isValidSudoku(char[][] board) {
-        return ture;
+        boolean res = true;
+        return res;
     }    
     
     public Solution () {
@@ -19,6 +20,6 @@ class Solution {
                         {'.','6','.','.','.','.','2','8','.'},
                         {'.','.','.','4','1','9','.','.','5'},
                         {'.','.','.','.','8','.','.','7','9'}};
-        isValidSudoku(board);
+        System.out.println(isValidSudoku(board));
     }
 }
